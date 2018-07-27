@@ -1,3 +1,4 @@
-const message = "Hellow world de WEBPACK!!!!";
+import angular from 'angular';
+import appModule from 'config';
 
-console.log(message);
+angular.bootstrap(document, [appModule.name]);

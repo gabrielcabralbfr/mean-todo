@@ -10,10 +10,10 @@ app.all('/*', function (req, res) {
     <html>\
         <head>\
             <title>MEAN ToDo App</title>\
+            <base href="/">\
         </head>\
         <body>\
         <h1>\
-            Hello worldsss!\
             <script src="bundle-todoapp.js"></script>\
         </body>\
     </html>\

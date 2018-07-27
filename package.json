@@ -12,12 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.7.2",
+    "angular-ui-router": "^1.0.19",
     "express": "^4.16.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-es2015": "^6.24.1",
+    "raw-loader": "^0.5.1",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
